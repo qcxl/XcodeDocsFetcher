@@ -5,7 +5,7 @@ A Xcode plugin which shows document's download URL.
 Build the XcodeDocsFetcher target in the Xcode project and the plug-in will automatically be installed.
 
 ### Usage
-This plug-in is default switch ON.
+This plug-in is default switched ON.
 
 * ```⌘,``` -> ```Downloads```
 * Then click download button
