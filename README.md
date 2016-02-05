@@ -11,6 +11,8 @@ This plug-in is default switch ON.
 * Then click download button
 * An alert will popup, ```Copy URL```.
 
+![Screenshot](https://github.com/BlueCocoa/XcodeDocsFetcher/raw/master/screenshot.png)
+
 #### Enable
 ```Edit -> Enable XcodeDocsFetcher```
 
