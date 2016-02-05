@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FED02C8E1C64D31300A2F366 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED02C8D1C64D31300A2F366 /* AppKit.framework */; };
+		FED02C901C64D31300A2F366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED02C8F1C64D31300A2F366 /* Foundation.framework */; };
+		FED02C941C64D31300A2F366 /* XcodeDocsFetcher.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = FED02C931C64D31300A2F366 /* XcodeDocsFetcher.xcscheme */; };
+		FED02C971C64D31300A2F366 /* XcodeDocsFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FED02C961C64D31300A2F366 /* XcodeDocsFetcher.m */; };
+		FED02C9A1C64D31300A2F366 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FED02C991C64D31300A2F366 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FED02C8A1C64D31300A2F366 /* XcodeDocsFetcher.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeDocsFetcher.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED02C8D1C64D31300A2F366 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		FED02C8F1C64D31300A2F366 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		FED02C931C64D31300A2F366 /* XcodeDocsFetcher.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = XcodeDocsFetcher.xcscheme; path = XcodeDocsFetcher.xcodeproj/xcshareddata/xcschemes/XcodeDocsFetcher.xcscheme; sourceTree = SOURCE_ROOT; };
+		FED02C951C64D31300A2F366 /* XcodeDocsFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeDocsFetcher.h; sourceTree = "<group>"; };
+		FED02C961C64D31300A2F366 /* XcodeDocsFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeDocsFetcher.m; sourceTree = "<group>"; };
+		FED02C981C64D31300A2F366 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		FED02C991C64D31300A2F366 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		FED02C9B1C64D31300A2F366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED02C881C64D31300A2F366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED02C8E1C64D31300A2F366 /* AppKit.framework in Frameworks */,
+				FED02C901C64D31300A2F366 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FED02C811C64D31300A2F366 = {
+			isa = PBXGroup;
+			children = (
+				FED02C911C64D31300A2F366 /* XcodeDocsFetcher */,
+				FED02C8C1C64D31300A2F366 /* Frameworks */,
+				FED02C8B1C64D31300A2F366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED02C8B1C64D31300A2F366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED02C8A1C64D31300A2F366 /* XcodeDocsFetcher.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED02C8C1C64D31300A2F366 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED02C8D1C64D31300A2F366 /* AppKit.framework */,
+				FED02C8F1C64D31300A2F366 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FED02C911C64D31300A2F366 /* XcodeDocsFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				FED02C951C64D31300A2F366 /* XcodeDocsFetcher.h */,
+				FED02C961C64D31300A2F366 /* XcodeDocsFetcher.m */,
+				FED02C981C64D31300A2F366 /* NSObject_Extension.h */,
+				FED02C991C64D31300A2F366 /* NSObject_Extension.m */,
+				FED02C9B1C64D31300A2F366 /* Info.plist */,
+				FED02C921C64D31300A2F366 /* Supporting Files */,
+			);
+			path = XcodeDocsFetcher;
+			sourceTree = "<group>";
+		};
+		FED02C921C64D31300A2F366 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED02C931C64D31300A2F366 /* XcodeDocsFetcher.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED02C891C64D31300A2F366 /* XcodeDocsFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED02C9E1C64D31300A2F366 /* Build configuration list for PBXNativeTarget "XcodeDocsFetcher" */;
+			buildPhases = (
+				FED02C861C64D31300A2F366 /* Sources */,
+				FED02C871C64D31300A2F366 /* Resources */,
+				FED02C881C64D31300A2F366 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeDocsFetcher;
+			productName = XcodeDocsFetcher;
+			productReference = FED02C8A1C64D31300A2F366 /* XcodeDocsFetcher.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED02C821C64D31300A2F366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BlueCocoa;
+				TargetAttributes = {
+					FED02C891C64D31300A2F366 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FED02C851C64D31300A2F366 /* Build configuration list for PBXProject "XcodeDocsFetcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FED02C811C64D31300A2F366;
+			productRefGroup = FED02C8B1C64D31300A2F366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED02C891C64D31300A2F366 /* XcodeDocsFetcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED02C871C64D31300A2F366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED02C941C64D31300A2F366 /* XcodeDocsFetcher.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED02C861C64D31300A2F366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED02C971C64D31300A2F366 /* XcodeDocsFetcher.m in Sources */,
+				FED02C9A1C64D31300A2F366 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FED02C9C1C64D31300A2F366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		FED02C9D1C64D31300A2F366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		FED02C9F1C64D31300A2F366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = XcodeDocsFetcher/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0xBBC.XcodeDocsFetcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		FED02CA01C64D31300A2F366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = XcodeDocsFetcher/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0xBBC.XcodeDocsFetcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED02C851C64D31300A2F366 /* Build configuration list for PBXProject "XcodeDocsFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED02C9C1C64D31300A2F366 /* Debug */,
+				FED02C9D1C64D31300A2F366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED02C9E1C64D31300A2F366 /* Build configuration list for PBXNativeTarget "XcodeDocsFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED02C9F1C64D31300A2F366 /* Debug */,
+				FED02CA01C64D31300A2F366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED02C821C64D31300A2F366 /* Project object */;
+}
